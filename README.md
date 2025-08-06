@@ -12,7 +12,7 @@ A sophisticated **Retrieval-Augmented Generation (RAG) system** that combines **
   - [Installation](#installation)
   - [Setup ChromaDB](#setup-chromadb)
   - [Set up OpenAI Key](#set-up-openai-key)
-  - [Run code to test Retrieval Augmented Generation](#run-code-to-test-retrieval-augmented-generation)
+  - [Usage](#usage)
 - [Project Structure](#-project-structure)
 - [Modules](#-modules)
   - [document_vectorization.py](#-document_vectorizationpy)
@@ -75,7 +75,7 @@ In .env file at the root of project configure your OPEN_API_KEY
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-### Run code to test Retrieval Gugmented Generation
+### Usage
 
 ```bash
 # Step 1: Vectorize your PDF document
