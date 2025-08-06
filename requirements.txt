@@ -1,0 +1,5 @@
+langchain_openai==0.3.28
+langchain_community==0.3.27
+langchain_chroma==0.2.5
+chromadb==1.0.15
+pypdf==5.9.0
