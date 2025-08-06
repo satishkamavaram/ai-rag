@@ -11,8 +11,8 @@ A sophisticated **Retrieval-Augmented Generation (RAG) system** that combines **
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
   - [Setup ChromaDB](#setup-chromadb)
-  - [Configuration](#configuration)
-  - [Usage](#usage)
+  - [Set up OpenAI Key](#set-up-openai-key)
+  - [Run code to test Retrieval Augmented Generation](#run-code-to-test-retrieval-augmented-generation)
 - [Project Structure](#-project-structure)
 - [Modules](#-modules)
   - [document_vectorization.py](#-document_vectorizationpy)
@@ -69,7 +69,7 @@ docker pull chromadb/chroma
 docker run -p 8000:8000 chromadb/chroma
 ```
 
-### Pre-requisite
+### Set up OpenAI Key
 In .env file at the root of project configure your OPEN_API_KEY
 ```
 OPENAI_API_KEY=your_openai_api_key_here
